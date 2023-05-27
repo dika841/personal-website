@@ -46,7 +46,7 @@ const Project = () => {
           <h1 className="text-base md:text-lg font-semibold mb-3 ">
             Checkout my work here
           </h1>
-          <section className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-0 md:pb-8">
+          <section className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 pb-8">
             {projects.map((project) => (
               <div
                 key={project.id}

@@ -10,13 +10,13 @@ const Home = () => {
         <section className="flex items-center justify-center text-center md:text-justify md:justify-between flex-col md:flex-row-reverse w-full text-blue-950 dark:text-slate-200 gap-y-5">
           <figure className="flex flex-col gap-y-7 justify-center items-center">
             <img
-              src="/img.jpg"
+              src="/heroImg.jpg"
               className="rounded-full w-32 md:w-60"
               alt="randika.jpg"
             />
             <SocialLink />
           </figure>
-          <div className="md:w-1/2 md:text-xl gap-y-14 md:flex md:flex-col">
+          <div className="md:w-1/2 md:text-xl gap-y-7 md:flex md:flex-col">
             <h1 className="md:text-3xl font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
               Hello, I am Randika
             </h1>

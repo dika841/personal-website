@@ -8,7 +8,7 @@ const SocialLink = () => {
       id: 1,
       child: (
         <>
-          <FaLinkedin className="text-2xl md:text-4xl" />
+          <FaLinkedin className="text-2xl md:text-4xl hover:scale-110 duration-75" />
         </>
       ),
       href: "https://www.linkedin.com/in/dika-randika-2b5064263/",
@@ -18,7 +18,7 @@ const SocialLink = () => {
       id: 2,
       child: (
         <>
-          <FaGithub className="text-2xl md:text-4xl" />
+          <FaGithub className="text-2xl md:text-4xl hover:scale-110 duration-75" />
         </>
       ),
       href: "https://github.com/dika841",
@@ -27,7 +27,7 @@ const SocialLink = () => {
       id: 3,
       child: (
         <>
-          <GrMail className="text-2xl md:text-4xl" />
+          <GrMail className="text-2xl md:text-4xl hover:scale-110 duration-75" />
         </>
       ),
       href: "mailto:randikaa1999@gmail.com",
@@ -36,10 +36,10 @@ const SocialLink = () => {
       id: 4,
       child: (
         <>
-          <GrInstagram className="text-2xl md:text-4xl" />
+          <GrInstagram className="text-2xl md:text-4xl hover:scale-110 duration-75" />
         </>
       ),
-      href: "",
+      href: "https://www.instagram.com/randikdrew/",
     },
   ];
 

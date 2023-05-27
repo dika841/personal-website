@@ -19,7 +19,7 @@ const About = () => {
             <h1 className="md:text-4xl text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 ">
               About me
             </h1>
-            <p className="md:text-lg text-base">
+            <p className="md:text-lg text-base text-justify ">
               I am a student pursuing a degree in technology. I have experience
               in web programming, especially in front-end development using
               HTML, CSS and JavaScript. I also have skills in using javascript
@@ -34,7 +34,7 @@ const About = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-y-2 gap-x-3 md:gap-y-6 items-center py-3 ">
             {skills.map((skill) => (
               <div
-                className="flex gap-x-2 items-center border-2 border-slate-200 p-2"
+                className="flex gap-x-2 items-center rounded border-2 border-slate-200 p-2"
                 key={skill.id}
               >
                 <img

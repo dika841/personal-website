@@ -11,19 +11,23 @@ function Navbar() {
     { id: 3, navLabel: "Projects", navRoute: "/projects" },
     { id: 4, navLabel: "Contact", navRoute: "/contact" },
   ];
+  const navLinkActive = ({ isActive }) => {
+    return isActive
+      ? "text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
+      : "dark:text-slate-200";
+  };
   return (
     <>
       <nav className="flex py-8 px-8 md:px-40 items-center justify-between text-blue-950 dark:text-slate-200 h-20 w-full md:p-12 shadow-md">
         <figure>
-          <figcaption className="font-bold text-2xl">Randika</figcaption>
+          <figcaption className="font-bold text-2xl md:text-3xl">
+            Randika
+          </figcaption>
         </figure>
         <ul className="hidden md:flex md:gap-x-5 md:text-xl md:items-center font-bold">
           {navList.map((el) => (
             <li key={el.id}>
-              <NavLink
-                className="hover:text-transparent bg-clip-text hover:bg-gradient-to-r from-purple-400 to-pink-600"
-                to={el.navRoute}
-              >
+              <NavLink className={navLinkActive} to={el.navRoute}>
                 {el.navLabel}
               </NavLink>
             </li>

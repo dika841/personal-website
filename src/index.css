@@ -8,11 +8,19 @@
   html {
     font-family: "Raleway", sans-serif;
   }
-  nav > ul > li a.active {
-    background: -webkit-linear-gradient(left, #3a80f5, #4bdf80);
-    background: -o-linear-gradient(right, #3a80f5, #4bdf80);
-    background: -moz-linear-gradient(right, #3a80f5, #4bdf80);
-    background: linear-gradient(to right, #3a80f5, #4bdf80);
+  nav a.active {
+    background: -webkit-linear-gradient(left, #c084fc, #db2777);
+    background: -o-linear-gradient(right, #c084fc, #db2777);
+    background: -moz-linear-gradient(right, #c084fc, #db2777);
+    background: linear-gradient(to right, #c084fc, #db2777);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  nav a:hover {
+    background: -webkit-linear-gradient(left, #c084fc, #db2777);
+    background: -o-linear-gradient(right, #c084fc, #db2777);
+    background: -moz-linear-gradient(right, #c084fc, #db2777);
+    background: linear-gradient(to right, #c084fc, #db2777);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
