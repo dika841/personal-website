@@ -26,7 +26,9 @@ const Home = () => {
               web developer
             </p>
             <Button>
-              <a href="#">Download CV</a>
+              <a href="/Randika-resume.pdf" download={true}>
+                Download CV
+              </a>
             </Button>
           </div>
         </section>
