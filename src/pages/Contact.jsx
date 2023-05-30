@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <MainLayout>
       <ContentLayout>
-        <section className="w-full">
+        <section className="w-full" data-aos="fade-up">
           <div className="flex flex-col  justify-center max-w-screen-lg h-full">
             <article className="pb-8">
               <h1 className="md:text-4xl text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">

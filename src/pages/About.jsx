@@ -14,7 +14,10 @@ const About = () => {
   return (
     <MainLayout>
       <ContentLayout>
-        <section className="flex flex-col gap-y-2 dark:text-slate-200 text-blue-950">
+        <section
+          className="flex flex-col gap-y-2 dark:text-slate-200 text-blue-950"
+          data-aos="zoom-in"
+        >
           <div className="flex flex-col gap-y-4">
             <h1 className="md:text-4xl text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 ">
               About me

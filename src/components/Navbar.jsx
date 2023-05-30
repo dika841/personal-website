@@ -44,7 +44,7 @@ function Navbar() {
         </div>
 
         {navItems && (
-          <ul className="flex flex-col justify-center items-center absolute top-20 left-0 w-full h-34 text-blue-950 dark:text-white bg-slate-50 dark:bg-blue-900 font-medium md:hidden">
+          <ul className="flex flex-col justify-center items-center absolute top-20 left-0 w-full h-34 text-blue-950 dark:text-white bg-slate-50 dark:bg-blue-900 font-medium md:hidden z-10">
             {navList.map((el) => (
               <li className="p-2" key={el.id}>
                 <NavLink
